@@ -3,20 +3,30 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color:#292e5a;
-  background-color:#f3f4ff
+  color:#f5f6fb;
+  background:linear-gradient(to right, #629ff4, #77f4c6)
 }
 
 .generator{
   width: 350px;
-  padding: 30px 20px;
-  border-radius: 20px;
-  background-color: #fff;
+  padding: 30px 25px;
+  border-radius: 25px;
+  background-color: #3b3f47;
 }
 
 .generator_title,.password{
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.password{
+  padding: 2px ;
+  margin-left: 5px;
+ text-align: center;
+ color:white;
+ font-size:larger;
+ font-style: oblique;
+ font-weight: bolder;
 }
 
 .generator_formcontrol{
@@ -26,7 +36,7 @@
 }
 
 .generator_formcontrol input{
-  accent-color: #b2abff;
+  accent-color: #abceff;
 }
 
 .generator_length {
@@ -34,35 +44,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 30px 0px;
-  padding: 15px;
-  border-radius: 5px;
-  background-color: #f3f4ff;
+  margin: 25px 0px;
+
 }
 
-.generator_length_count button{
-  width: 30px;
-  height: 25px;
-  font-size: 20px;
-  margin: 0 10px;
-  color: #fff;
-  background-color: #292e5a;
-  border: 1px solid #292e5a;
-  border-radius: 5px;
-  transition: all 200ms linear;
-  cursor: pointer;
-}
 
-.generator_length_count button:hover{
-  color: #292e5a;
-  background-color: #3ebe80;
-  border: 1px solid #292e5a;
-}
-
-.generator_length_count span{
+.generator_length_title span{
   display: inline-block;
   font-size: 18px;
-  width: 36px;
+  width: 16px;
   text-align: center;
 }
 
@@ -80,9 +70,22 @@
 }
 
 .generator_form_action .generate-btn{
-  background: linear-gradient(to right, #a0c0ff, #b2abff);
+  background: linear-gradient(to right, #a0ffa3, #b2abff);
 }
 
 .generator_form_action .copy-btn{
-  background: linear-gradient(to right, #62f498, #77f4eb);
+  background: linear-gradient(to right,#a0ffa3, #b2abff);
 }
+
+.passwordList{
+  width: 350px;
+  padding: 30px 25px ;
+  margin-left: 20px;
+  border-radius: 25px;
+ background-color: #3b3f47;
+ text-align: center;
+
+}
+ .passwordList h2{
+  margin: 10px;
+ }
